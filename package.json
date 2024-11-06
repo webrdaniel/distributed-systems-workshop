@@ -1,0 +1,22 @@
+{
+  "name": "distributed-systems-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:replication": "jest replication",
+    "test:sharding": "jest sharding"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@apify/tsconfig": "^0.1.0",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@apify/utilities": "^2.10.9"
+  }
+}
